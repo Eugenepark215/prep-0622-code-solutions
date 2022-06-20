@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+      justify-content: space-around;
+
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <h1>Space Cowboy stars as a sophisticated Archaeologist Cowboy </h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/raiders.jpg">
+        <h3>Raiders of the Lost Ark</h3>
+        <p>
+          Han Solo from different universe goes on an adventure to stop this univese's equivalent Galactic Empire from finding the Ark of the Convenant.
+          Han Solo finds the Ark, Nazi forces die, and USA steals the Egyptian artifact for safe-keeping.
+        </p>
+      </div>
+      <div class="column">
+        <img src="images/temple.jpg">
+        <h3>Temple of Doom</h3>
+        <p>
+          This time Han Solo trades Chewbacca for a kid named Short Round and a singer that also acts as a damsel in distress.
+           They crash their universal equivalent Millenium Falcon in India and are fed animal entrails in a country with the largest vegetarian population in the world.
+        </p>
+      </div>
+      <div class="column">
+        <img src="images/crusade.jpg">
+        <h3>Last Crusade</h3>
+        <p>Han Solo looks for the Holy Grail.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</body>
+</html>
