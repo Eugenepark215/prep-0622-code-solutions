@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Conditionals</title>
+</head>
+<body>
+  <script>
+    // Your code here
+    const age = 25;
+    let person;
+    if (age < 18) {
+      person = 'a child';
+    } else {
+      person = 'an adult';
+    }
+    console.log(person);
+
+    const student1Score = 71;
+    let grade1;
+    if (student1Score >= 70) {
+      grade1 = 'Congrats you recieved a passing grade!';
+    } else {
+      grade1 = 'Oh no you failed';
+    }
+    console.log(grade1);
+
+    const student25Score = 101;
+    let grade25;
+    if (student25Score < 60) {
+      grade25 = 'F';
+    } else if (student25Score < 70) {
+      grade25 = 'D';
+    } else if (student25Score < 80) {
+      grade25 = 'C';
+    } else if (student25Score < 90) {
+      grade25 = 'B';
+    } else if (student25Score < 100) {
+      grade25 = 'A';
+    } else {
+      grade25 = 'A++';
+    }
+    console.log(grade25);
+
+    const season = 'winter';
+    let climate;
+    if (season === 'summer') {
+      climate = "it's hot today";
+    } else if (season === 'spring') {
+      climate = 'the flowers are blooming';
+    } else if (season === 'autumn') {
+      climate = 'the leaves are changing colors';
+    } else if (season === 'winter') {
+      climate = "it's cold today";
+    } else {
+      climate = 'please enter a valid season';
+    }
+    console.log(climate);
+
+    const dayOfTheWeek = 'Tuesday';
+    let today;
+    if (dayOfTheWeek === ('saturday' || 'sunday')) {
+      today = 'have a good weekend';
+    } else {
+      today = "It's a weekday!";
+    }
+    console.log(today);
+  </script>
+</body>
+</html>
